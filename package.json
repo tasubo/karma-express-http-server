@@ -1,0 +1,23 @@
+{
+    "name": "karma-express-http-server",
+    "version": "0.0.1",
+    "description": "A Karma plugin that allows you to create tiny http server with express.js to handle some testing cases",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tasubo/karma-express-http-server.git"
+    },
+    "author": "Tadas Subonis <tadas.subonis@gmail.com>",
+    "keywords": [
+        "karma-plugin",
+        "http-server",
+        "express"
+    ],
+    "dependencies": {
+        "express": ">=4.4.2"
+    },
+    "peerDependencies": {
+        "karma": ">=0.11.14"
+    },
+    "license": "Apache-2.0"
+}
